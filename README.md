@@ -13,7 +13,7 @@ Weather dashboard application that enables user to check weather information by 
 Run the website, input a city name and view weather report.
 
 ## Screenshot
-<img src="./screencapture.png" alt="Weather Dashboard"/>P
+<img src="./screencapture.png" alt="Weather Dashboard"/>
 
 ## Link
 https://princeultim8.github.io/Weather-dashboard/
