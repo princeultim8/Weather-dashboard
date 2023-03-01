@@ -6,18 +6,15 @@ An application, creating dynamic HTML and CSS using OpenWeather API to retrieve 
 
 ## Features
 
-Weather dashboard application with space for user input to update information displayed.
-
-Current/future weather conditions for city, including;
-City name, date, temperature, humidity & wind speed
-5-day forecast - displaying date, temp & humidity
-Local storage to save events for user to revisit
-AJAX calls to retrieve information from API
+Weather dashboard application that enables user to check weather information by entering city name.
 
 ## Usage
 
 Run the website, input a city name and view weather report.
 
 ## Screenshot
+<img src="./screencapture.png" alt="Weather Dashboard"/>P
 
 ## Link
+https://princeultim8.github.io/Weather-dashboard/
+

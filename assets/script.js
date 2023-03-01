@@ -11,7 +11,7 @@ $(document).ready(function(){
   var APIKey = "29f595125610436376375721ee1541b8";
   
   // On page load 
-  // Create header element for 'previous search'
+  // 'previous search' header created
   var historyHeader = $("<h3>");
   historyHeader.text("Previous search");
   historyDiv.append(historyHeader);
@@ -51,7 +51,7 @@ $(document).ready(function(){
           var todayTemp = response.list[0].main.temp - 273.15;
           var todayWind = response.list[0].wind.speed;
           var todayHumid = response.list[0].main.humidity;
-          var todayTime = moment().format("D/M/YY");
+          var todayTime = moment().format("DD/MM/YYYY");
   
           // Display weather icon as part of header
           var weatherIcon = $("<img>");
@@ -188,9 +188,4 @@ $(document).ready(function(){
   
   });
   };
-  
-  
-  
-  
-  
   });
